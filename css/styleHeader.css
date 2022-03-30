@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#bandeau{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #66478f ;
+}
+
+
+div a{
+    text-decoration: none;
+}
+
+/* Mise en page du menu burguer  */
+/* Sidenav menu */
+.sidenav {
+height: 100%;
+width: 250px;
+position: fixed;
+z-index: 1;
+top: 0;
+right: -250px;
+background-color: #e8e8e8;
+padding-top: 60px;
+transition: right 1s ease;
+align-items: end;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+transition: 1s;
+}
+
+.sidenav a:hover {
+color: #111;
+}
+
+.sidenav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.sidenav ul li{
+margin-top: 20px;
+}
+/* Active class */
+.sidenav.active {
+right: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon {
+width: 35px;
+
+}
+
+#openBtn{
+display: flex;
+justify-content: end;
+}
+
+/* Mise en place des icones */
+#header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav{
+    justify-content: end;
+    width: 100%;
+    display: flex;
+    padding-right: 2%;
+}
+
+nav button,
+nav button img{
+    width: 40px;
+}
+
+.burger-icon{
+    padding-left: 10px;
+}

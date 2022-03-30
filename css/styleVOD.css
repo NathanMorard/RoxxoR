@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#main{
+    padding-top: 4%;
+}
+
+.Vod{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.video{
+    width: 100%;
+
+}
+section div h3,
+section div p{
+    text-align: center;
+}
+
+
+#PreLI{
+    display: flex;
+}

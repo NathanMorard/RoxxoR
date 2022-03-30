@@ -1,0 +1,19 @@
+/* Footer */
+#footer{
+    
+    text-align: center;
+    padding: 30px;
+    margin-top: 5%;
+}
+div a button{
+    
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 4px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
