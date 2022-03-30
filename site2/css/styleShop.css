@@ -1,0 +1,39 @@
+h1{
+    color: black;
+}
+
+section{
+    padding-top: 4%;
+}
+
+#clothes1{
+    padding-top: 5%;
+    display: flex;
+    text-align: center;
+}
+
+#clothes2{
+    padding-top: 5%;
+    display: flex;
+    text-align: center;
+}
+
+#clothes3{
+    padding-top: 5%;
+    display: flex;
+    text-align: center;
+}
+
+section img{
+    width: 70%;
+    border: solid;
+    border-color: #e3813c;
+    padding: 9px;
+}
+
+section img:hover{
+    -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+

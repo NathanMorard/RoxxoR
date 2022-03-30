@@ -1,0 +1,198 @@
+/* Mise en page de l'index  */
+#bandeau{
+    display: flex;
+}
+#titre{
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+
+#accueil{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 4%;
+}
+
+#logo{
+    width: 5%;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+.bouton{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#photopres{
+    background-color: #e3813c ;
+    padding: 18px 0;
+}
+
+#photopres {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#photoaccueil {
+    vertical-align: middle;
+    width: 450px;
+}
+
+#deuxiemeParti{
+    display: flex;
+    align-items: center;
+}
+#sectionNews{
+    width: 50%;
+}
+
+#imgNews{
+    width: 100%;
+}
+
+#sectionInscrip{
+    width: 50%;
+    padding: 5%;
+}
+
+#inscription{
+    display: flex;
+    flex-direction: column;
+}
+
+#test{
+    background-color: black;
+}
+#texttest{
+    color: white;
+}
+
+#photopres img:hover{
+    -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+section h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+section p{
+    text-align: center;
+}
+
+#sponsor{
+    margin-top: 50px;
+}
+
+
+/* Mise en place du bandeau déroulant  */
+body {
+font-weight: 700;
+height: 100vh;
+background: black;
+
+}
+.marquee {
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+}
+.marquee .inner {
+position: relative;
+width: 100%;
+display: flex;
+color: white;
+font-size: 8rem;
+}
+.marquee .inner > * {
+white-space: nowrap;
+padding: 0 4rem;
+}
+
+
+
+  
+/* Mise en page du carousel */
+
+.SponLogo1{
+    width: 30%;
+}
+.SponLogo2{
+    width: 25%;
+}
+.SponLogo3{
+    width: 50%;
+}
+
+.marquee {
+margin: 0 auto;
+width: 100%;
+height: 300px;
+white-space: nowrap;
+overflow: hidden;
+box-sizing: border-box;
+position: relative;
+}
+.marquee:before,
+.marquee:after {
+position: relative;
+top: 0;
+width: 50px;
+height: 30px;
+content: "";
+z-index: 1;
+}
+.marquee:before {
+left: 0;
+background: black
+}
+.marquee:after {
+right: 0;
+background: linear-gradient(to left, #ccc 10%, transparent 80%);
+}
+.marquee__content {
+width: 300%;
+display: flex;
+line-height: 30px;
+animation: marquee 10s linear infinite forwards;
+}
+.marquee__content:hover {
+animation-play-state: paused;
+}
+.list-inline {
+display: flex;
+justify-content: space-around;
+width: 100%;
+/* reset list */
+list-style: none;
+padding: 0;
+margin: 0;
+}
+@keyframes marquee {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-66.6%);
+}
+}
+
+#footer{
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+}
+
+.Textefooter{
+    color: white;
+}
